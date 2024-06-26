@@ -1,0 +1,55 @@
+.row>.col.col-3,
+.bd-example-row .row>[class^="col"] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(18, 18, 17, 0.01);
+    border: 5px solid rgba(14, 14, 14, 0.01);
+}
+
+
+.titulo{
+   background-color: black;
+   box-shadow: 4px 4px 4px;
+   text-align: center;
+   color: white;
+   border-radius: 20px;
+}
+
+
+.col-12{
+    text-align: center;
+}
+
+.col-11{
+   font: optional;
+   border-radius: 3px;
+   background-color: antiquewhite;
+   max-width: 38%;
+   box-shadow: 3px 3px 3px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#categorias-2{
+    margin-left: 30%;
+}
+
+#titulo-TALLAS{
+    text-align: center;
+    background-color: rgb(241, 241, 245);
+    border-radius: 100px;
+    box-shadow: 2px 2px 2px;
+}
+
+#colores{
+    color: blue;
+}
+
+.fondo{
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+    height: 100vb;
+}
+
+

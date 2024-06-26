@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Proyecto</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="admi-index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProductos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownProductos">
+                        <li><a class="dropdown-item" href="admi-agrega.html">Agregar</a></li>
+                        <li><a class="dropdown-item" href="admi-actualiza.html">Actualizar</a></li>
+                        <li><a class="dropdown-item" href="admi-elimina.html">Eliminar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContabilidad" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        detalles
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownContabilidad">
+                        <li><a class="dropdown-item" href="admi-usuarios.html">Usuarios</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <center>
+        <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Nombre del producto</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Eje: camisa">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Color</label>
+              <select class="form-control" id="formGroupExampleInput2" >
+                <option disabled selected>azul</option>
+                <option>negro</option>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">talla</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="L">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Precio</label>
+                <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Eje: $50.000" min="0" max="10000000">
+              </div>
+                    <label for="formGroupExampleInput2">Agrega imágen</label>
+                    <input type="file" class="form-control" id="formGroupExampleInput2">
+                  </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">detalles</label>
+                    <textarea class="form-control" id="formGroupExampleInput2" placeholder="detalles del producto" cols="30" rows="10"></textarea>
+                  </div>
+              </div>
+              <input type="reset">
+              <a href="admi-index.html">
+                <input type="button" value="Enviar">
+              </a>
+              
+          </form>
+    </center>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
